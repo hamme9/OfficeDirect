@@ -1,0 +1,11 @@
+.cart--wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+@media (max-width: 48em) {
+    .cart--wrapper:nth-child(1),
+    .cart--wrapper:nth-child(2) {
+     display: none;
+    }
+  }

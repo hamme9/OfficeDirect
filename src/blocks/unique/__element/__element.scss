@@ -1,0 +1,14 @@
+.unique__element {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .unique__element {
+        display: block;
+        position: absolute;
+        width: 50rem;
+        height: 3.2rem;
+        top: 94%;
+        left: 6%;
+    }
+}   

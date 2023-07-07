@@ -1,0 +1,10 @@
+.objects__text strong { 
+    font-weight: 600;
+}
+
+@media (max-width: 48em) {
+    .objects__text {
+        margin-left: -0.5rem;
+        margin-right: 0;
+    }
+  }

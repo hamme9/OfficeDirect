@@ -1,0 +1,12 @@
+.facts__item--active {
+    border: 0.1rem solid #F3F4F7;
+    box-shadow: 0 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
+    transition: 1s;
+    padding: 2.4rem 3.2rem 3.2rem 2.9rem;
+}
+
+@media (max-width: 48em) {
+    .facts__item--active {
+        padding: 3rem 3.2rem 4.3rem 2.9rem;
+    }
+}

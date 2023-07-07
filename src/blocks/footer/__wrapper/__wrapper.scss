@@ -1,0 +1,15 @@
+.footer__wrapper {
+    position: relative;
+    display: flex;
+    padding-top: 6.9rem;
+    padding-bottom: 6.5rem;
+}
+
+@media (max-width: 48em) {
+    .footer__wrapper {
+        flex-direction: column;
+        padding-top: 8.7rem;
+        padding-bottom: 20rem;
+        width: 50.6rem;
+    }
+}

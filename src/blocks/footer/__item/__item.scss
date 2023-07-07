@@ -1,0 +1,21 @@
+.footer__item {
+    display: flex;
+    color: #E7EAEF;
+
+    &:not(:last-child) {
+        margin-bottom: 1.7rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer__item {
+    
+        &:nth-child(1) {
+            margin-bottom: 2.8rem;
+        }
+
+        &:nth-child(2) {
+            margin-bottom: 2rem;
+        }
+    }
+}

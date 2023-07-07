@@ -1,0 +1,16 @@
+.catalog__button {
+    @include font(600, 1.8rem, 130%);
+    color: #191E32;
+    width: 100%;
+    text-align: center;
+    padding-top: 2.4rem;
+    padding-bottom: 2.6rem;
+}
+
+@media (max-width: 48em) {
+    .catalog__button {
+        @include font(600, 3.2rem, 130%);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+  }

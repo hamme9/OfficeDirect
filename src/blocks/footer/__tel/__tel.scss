@@ -1,0 +1,9 @@
+.footer__tel {
+    @include font (600, 2rem, 140%);
+}
+
+@media (max-width: 48em) {
+    .footer__tel {
+        display: none;
+    }
+}

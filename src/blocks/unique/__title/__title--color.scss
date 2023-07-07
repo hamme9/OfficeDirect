@@ -1,0 +1,9 @@
+.unique__title--color {
+    opacity: 0.5;
+}
+
+@media (max-width: 48em) {
+    .unique__title--color {
+        opacity: 1;
+    }
+}

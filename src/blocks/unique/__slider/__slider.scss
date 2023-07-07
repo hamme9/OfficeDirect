@@ -1,0 +1,23 @@
+.unique__slider {
+    padding-bottom: 11.2rem;
+    padding-top: 5rem;
+    width: 100%;
+    display: none;
+}
+
+
+@media (max-width: 48em){
+    .unique__wrapper {
+        .unique__slider {
+            display: block;
+            padding-top: 0rem;
+            
+            .swiper-slide-active {
+                width: 58rem !important;
+            }
+            .swiper-slide-prev {
+                margin-left: 3rem;
+            }
+        }
+    }
+}

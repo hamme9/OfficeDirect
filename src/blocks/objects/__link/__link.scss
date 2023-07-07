@@ -1,0 +1,10 @@
+.objects__link {
+    @include font(400, 1.5rem, 150%);
+    // display: inline-block;
+}
+
+@media (max-width: 48em) {
+    .objects__link {
+        @include font(400, 2.6rem, 150%);
+    }
+  }

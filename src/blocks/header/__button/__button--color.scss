@@ -1,0 +1,17 @@
+.header__button--color {
+  background-color: #F3F4F7;
+  border-radius: 0.8rem;
+
+  &:hover {
+    background-color: #E5E9EB;
+  }
+}
+
+@media (max-width: 48em) {
+  .header__button--color {
+    &:hover {
+      background-color: #F3F4F7;
+    }
+  }
+
+}

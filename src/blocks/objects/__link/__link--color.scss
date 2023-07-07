@@ -1,0 +1,13 @@
+.objects__link--color {
+    color: #959AAE;
+    font-family: 'Manrope';
+    border-bottom: 1px dashed #E7EAEF;
+}
+
+@media (max-width: 48em) {
+    .objects__link--color {
+        &:hover {
+            color: #959AAE;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+.form__alarmmsg {
+    @include font(600, 2rem, 120%);
+    margin-top: 1rem;
+    text-align: center;
+}

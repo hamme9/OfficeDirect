@@ -1,0 +1,10 @@
+.slider__button--color {
+    color: #FFFFFF;
+    background: #0074D4;
+    box-shadow: 0 8.6rem 10.2rem rgba(0, 116, 212, 0.2), 0 2.59264rem 3.075rem rgba(0, 116, 212, 0.241), 0 1.076854rem 1.277198rem rgba(0, 116, 212, 0.15), 0 0.389476rem 0.461938rem rgba(0, 116, 212, 0.059);
+    border-radius: 1.6rem;
+
+    &:hover {
+        background-color:#2b3350;
+    }
+}

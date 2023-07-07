@@ -1,0 +1,11 @@
+.unique__title {
+    @include font(600, 2.2rem, 140%);
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width: 48em) {
+    .unique__title {
+        @include font(600, 3.4rem, 140%);
+        max-width: 50rem;
+    }
+}

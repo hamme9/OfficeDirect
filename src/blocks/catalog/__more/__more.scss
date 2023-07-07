@@ -1,0 +1,10 @@
+.catalog__more {
+    @include centered;
+    margin-bottom: 10.8rem;
+}
+
+@media (max-width: 48em) {
+    .catalog__more {
+        margin-bottom: 17rem;
+    }
+}

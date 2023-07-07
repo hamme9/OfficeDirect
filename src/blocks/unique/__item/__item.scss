@@ -1,0 +1,15 @@
+.unique__item {
+    position: relative;
+    max-width: 39.8rem;
+    &:not(:last-child) {
+        margin-bottom: 2.8rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .unique__item {
+        position: static;
+        max-width: 57.6rem;
+        display: none;
+    }   
+}

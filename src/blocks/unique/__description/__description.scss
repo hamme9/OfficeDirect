@@ -1,0 +1,13 @@
+.unique__description {
+    text-align: center;
+    @include font(400, 2.3rem, 160%);
+    padding-bottom: 9rem;
+}
+
+@media (max-width: 48em) {
+    .unique__description {
+        @include font(400, 2.8rem, 160%);
+        letter-spacing: -0.01em;
+        padding-bottom: 0rem;
+    }
+}

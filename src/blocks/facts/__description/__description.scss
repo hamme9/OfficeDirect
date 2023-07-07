@@ -1,0 +1,16 @@
+.facts__description {
+    @include font(400, 2.3rem, 160%);
+    text-align: center;
+    letter-spacing: -0.07rem;
+    margin-bottom: 5.3rem;
+    max-width: 117.2rem;
+}
+
+@media (max-width: 48em) {
+    .facts__description {
+        @include font(400, 2.8rem, 160%);
+        max-width: 100%;
+        letter-spacing: -0.08rem;
+        margin-bottom: 4.6rem;
+    }
+}

@@ -1,0 +1,13 @@
+.form__input--color {
+    background: #576077;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0.6rem 1.6rem rgba(255, 255, 255, 0.08);
+    border-radius: 0.8rem;
+    color: #FFFFFF;
+}
+
+@media (max-width: 48em){
+    .form__input--color {
+        border-radius: 1.6rem;
+    }
+}

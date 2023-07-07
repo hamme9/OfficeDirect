@@ -1,0 +1,17 @@
+.header__button {
+  @include font(500, 1.6rem, 140%);
+  padding: 1.35rem 2.85rem 1.55rem;
+
+  max-width: 18.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+
+@media (max-width: 48em) {
+  .header__button {
+    max-width: 50rem;
+    display: none;
+  }
+}

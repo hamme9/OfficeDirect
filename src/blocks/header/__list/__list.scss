@@ -1,0 +1,14 @@
+.header__list {
+    margin-bottom: 0.5rem;
+    li {
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-bottom: 3.6rem;
+        }
+
+        &:nth-child(4) {
+            margin-bottom: 6.6rem;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.unique__wrapper--style {
+    background: url('../img/unique/back.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 48em) {
+    .drive__wrapper--style {
+        background: transparent;
+    }
+  }

@@ -1,0 +1,23 @@
+.clients__wrap {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    padding-bottom: 17.5rem;
+}
+
+@media (max-width: 48em) {
+    .clients__wrap {
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        justify-content: space-between;
+        padding-bottom: 14rem;
+        // display: grid;
+        // justify-items: center;
+        // justify-content: space-around;
+        // width: 100%;
+        // grid-template-areas:
+        // "A  E"
+        // "C  D"
+        // "B  F" ;
+    }
+}

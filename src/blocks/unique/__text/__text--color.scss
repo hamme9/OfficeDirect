@@ -1,0 +1,10 @@
+.unique__text--color {
+    color: #576077;
+    opacity: 0.5;
+}
+
+@media (max-width: 48em) {
+    .unique__text--color {
+        opacity: 1;
+    }
+}

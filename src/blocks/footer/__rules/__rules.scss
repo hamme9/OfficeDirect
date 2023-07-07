@@ -1,0 +1,23 @@
+.footer__rules {
+    @include font(500, 1.4rem, 140%);
+    
+    max-width: 24rem;
+    overflow: auto;
+
+    p {
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer__rules {
+        position: absolute;
+        top: 77.5rem;
+        @include font(500, 2.6rem, 140%);
+        max-width: 50rem;
+        
+        p {
+            margin-top: 1.2rem;
+        }
+    }
+}

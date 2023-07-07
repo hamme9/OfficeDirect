@@ -1,0 +1,11 @@
+.facts__question {
+    @include vercen;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+@media (max-width: 48em) {
+    .facts__question {
+        margin-bottom: 2.7rem;
+    }
+}

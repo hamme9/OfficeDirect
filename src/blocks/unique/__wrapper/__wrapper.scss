@@ -1,0 +1,13 @@
+.unique__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 9.6rem;
+}
+
+@media (max-width: 48em) {
+    .unique__wrapper{
+        width: 100%;
+        padding-top: 13rem;
+        padding-bottom: 3rem;
+    }
+  }

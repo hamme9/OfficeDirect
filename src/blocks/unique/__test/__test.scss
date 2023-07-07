@@ -1,0 +1,23 @@
+.unique__test {
+    position: absolute;
+    z-index: -1;
+    display: inline-block;
+    width: 51rem;
+    height: 75.7rem;
+    top: -21%;
+    left: 27%;
+}
+
+@media (max-width: 48em) {
+    .unique__test {
+        // position: ;
+        order: -2;
+        margin: 0 auto;
+        margin-top: -5rem;
+        margin-left: 5rem;
+        left: 0;
+        top: -70rem;
+        display: none;
+        // transform: translate(0, -90%);
+    }
+}

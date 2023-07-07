@@ -1,0 +1,18 @@
+.unique__text {
+    @include font(400, 1.5rem, 160%);
+
+    span {
+        display: none;
+    }
+}
+
+@media (max-width: 48em) {
+    .unique__text {
+        @include font(400, 2.6rem, 140%);
+        max-width: 50rem;
+
+        span {
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.slider__button {
+    padding: 2.6rem 4.95rem 3rem;
+    @include font(600, 1.8rem, 140%);
+
+    max-width: 30rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    & span:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 48em) {
+    .slider__button {
+        display: none;
+  }
+}

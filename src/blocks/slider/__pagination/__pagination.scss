@@ -1,0 +1,39 @@
+.slider__pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -3.5rem;
+    z-index: 100;
+
+    .swiper-pagination-bullet-active {
+        background-color: $color-text-black;
+    }
+
+    .swiper-pagination-bullet {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+
+    .swiper-pagination-bullet:not(:last-child) {
+        margin-right: 1.2rem;
+
+    }
+}
+
+@media (max-width: 48em) {
+    .slider__pagination {
+        top: 2.6rem;
+        overflow: visible;
+    
+
+        .swiper-pagination-bullet {
+            width: 0.8rem;
+            height: 0.8rem;
+        }
+
+        .swiper-pagination-bullet:not(:last-child) {
+            margin-right: 0.5rem;
+
+        }
+    }
+}

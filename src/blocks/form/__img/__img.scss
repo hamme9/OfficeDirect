@@ -1,0 +1,13 @@
+.form__img {
+    width: 73.6rem;
+    height: 76.6rem;
+    position: absolute;
+    top: -21.7rem;
+    right: 20rem;
+}
+
+@media (max-width: 48em){
+    .form__img {
+        display: none;
+    }   
+}

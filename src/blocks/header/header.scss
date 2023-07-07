@@ -1,0 +1,11 @@
+.header {
+  padding-top: 1.8rem;
+  padding-bottom: 1.4rem;
+}
+
+
+@media (max-width: 48em) {
+  .header {
+    padding-bottom: 1.8rem;
+  }
+}

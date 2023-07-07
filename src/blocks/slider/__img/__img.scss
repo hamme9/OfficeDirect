@@ -1,0 +1,18 @@
+.slider__img {
+    display: inline-block;
+    width: 5.4rem;
+    height: 6.5rem;
+    position: absolute;
+    left: 36.5%;
+    bottom: 0;
+    transform: translate(-50%, 5%);
+}
+
+@media (max-width: 48em) {
+    .slider__img {
+        width: 3.6rem;
+        height: 4.4rem;
+        left: 49%;
+        transform: translate(-50%, 0);
+    }
+}

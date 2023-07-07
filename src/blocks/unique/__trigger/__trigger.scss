@@ -1,0 +1,12 @@
+.unique__trigger {
+    width: 2.8rem;
+    height: 2.8rem;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    // right: 0;
+
+    &:nth-child(1) {
+        right: -20rem;
+    }
+}

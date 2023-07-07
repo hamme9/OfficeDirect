@@ -1,0 +1,11 @@
+.objects__title {
+    @include font(300, 2.2rem, 150%);
+    margin-bottom: 1.3rem;
+}
+
+@media (max-width: 48em) {
+    .objects__title {
+        margin-bottom: 0.8rem;
+        @include font(300, 2.8rem, 150%);
+    }
+  }

@@ -1,0 +1,40 @@
+.form__text {
+    @include font(300, 1.8rem, 120%);
+    display: flex;
+    cursor: pointer;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background: #576077;
+        border: 0.1rem solid #6F7487;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+
+    .form__desctop {
+        margin-left: 1.8rem;
+        // display: flex;
+    }
+}
+
+@media (max-width: 48em){
+    .form__text {
+        @include font(300, 2.4rem, 91.52%);
+        margin-right: 0rem;
+        width: 48rem;
+
+        &:before {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 1rem;
+        }
+
+        span {
+            display: block;
+        }
+    }
+}

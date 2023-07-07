@@ -1,0 +1,15 @@
+.delivery__wrap {
+    display: flex;
+    @include maxWindtn;
+    padding-top: 6rem;
+    padding-bottom: 9.2rem;
+}
+
+@media (max-width: 48em) {
+    .delivery__wrap {
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 12rem;
+     padding-top: 8.5rem;
+    }
+  }

@@ -1,0 +1,13 @@
+.unique__wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9.8rem;
+    position: relative;
+}
+
+@media (max-width: 48em) {
+    .unique__wrap {
+        flex-direction: column;
+        padding-bottom: 0rem;
+    }
+}

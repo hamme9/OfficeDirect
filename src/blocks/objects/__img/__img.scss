@@ -1,0 +1,19 @@
+.objects__img {
+    width: 8.8rem;
+    height: 8.8rem;
+    margin-bottom: 1.8rem;
+}
+
+// .objects__wrap .objects__img:nth-child(1) {
+//     margin-right: -30rem;
+// }
+
+@media (max-width: 48em) {
+    .objects__img {
+     width: 9.6rem;
+     height: 9.6rem;
+     margin-bottom: 0;
+     margin-right: 1.6rem;
+     flex-shrink: 0;
+    }
+  }

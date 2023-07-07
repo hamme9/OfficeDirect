@@ -1,0 +1,5 @@
+.form__error {
+    display: none;
+    @include font(700, 1.5rem, 120%);
+    margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+.clients__title {
+    text-align: center;
+    @include font(900, 4.4rem, 120%);
+    padding-top: 10.9rem;
+    margin-bottom: 1.7rem;
+}
+
+@media (max-width: 48em) { 
+    .clients__title {
+        @include font(900, 5.6rem, 120%);
+        margin-bottom: 5.3rem;
+        padding-top: 11.8rem;
+    }
+}
